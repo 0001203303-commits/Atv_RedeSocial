@@ -12,4 +12,4 @@ Route::get('/messages', "App\Http\Controllers\WebsiteController@messages");
 Route::get('/notification', "App\Http\Controllers\WebsiteController@notification");
 Route::get('/profile', "App\Http\Controllers\WebsiteController@profile");
 //login e register
-Route::get('/login', "App\Http\Controllers\UserController@login"); 
+Route::get('/login', "App\Http\Controllers\WebsiteController@login"); 
